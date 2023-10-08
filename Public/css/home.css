@@ -1,0 +1,223 @@
+@import 'nav.css';
+@import 'footer.css';
+
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url('../img/header4.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'cinzel', serif;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 75px;
+    font-weight: 500;
+}
+.sub-heading span{
+    font-family: 'cinzel', sans-serif;
+    color: #bb8208;
+}
+
+/* product */
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    text-indent: 20px;
+    font-family: 'cinzel', sans-serif;
+    color: #8f6e6e;
+}
+.product-container{
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+}
+
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.product-thumb{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.discount-tag{
+    position: absolute;
+    background: #8f6e6e;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+}
+
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: black;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #fff;
+}
+
+.product-info{
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+}
+
+.product-brand{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200px;
+}
+
+.product-brand a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.star{
+    color: gold;
+}
+
+.price{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.actual-price{
+    margin-left: 10px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.pre-btn, .nxt-btn{
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn{
+    right: 0;
+}
+
+.pre-btn img, .nxt-btn img{
+    opacity: 0.2;
+}
+
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 1;
+}
+
+/*collections*/
+.collection-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collection p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(114, 69, 69);
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: 'cinzel', sans-serif;
+}
+
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}

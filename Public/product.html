@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@100&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
+    
+</head>
+<body>
+        <nav class="navbar"></nav>
+        <section class="product-details">
+            <div class="image-slider">
+                <div class="product-images">
+                    <img src="img/Product image (1).jpeg" class="active" alt="">
+                    <img src="img/Product image (2).jpeg" alt="">
+                    <img src="img/Product image (3).jpeg" alt="">
+                    <img src="img/Product image (5).jpeg" alt="">
+                </div>
+            </div>
+            <div class="details">
+                <h2 class="product-brand">Nike Airforce 1</h2>
+                <p class="product-short-des">Designed by Bruce Kilgore and introduced in 1982.</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="product-price">Rs.5600</span>
+                <span class="product-actual-price">Rs.7000</span>
+                <span class="product-discount">( 20% off )</span>
+        
+                <p class="product-sub-heading">select size</p>
+        
+                <input type="radio" name="size" value="UK-6" checked hidden id="UK-6-size">
+                <label for="UK-6-size" class="size-radio-btn check">UK-6</label>
+                <input type="radio" name="size" value="UK-7" hidden id="UK-7-size">
+                <label for="UK-7-size" class="size-radio-btn">UK-7</label>
+                <input type="radio" name="size" value="UK-8" hidden id="UK-8-size">
+                <label for="UK-8-size" class="size-radio-btn">UK-8</label>
+                <input type="radio" name="size" value="UK-9" hidden id="UK-9-size">
+                <label for="UK-9-size" class="size-radio-btn">UK-9</label>
+                <input type="radio" name="size" value="UK-10" hidden id="UK-10-size">
+                <label for="UK-10-size" class="size-radio-btn">UK-10</label>
+        
+                <button class="btn cart-btn"><a href="cart.html">add to cart</a></button>
+                <button class="btn">Buy Now</button>
+            </div>
+        </section>
+        <section class="detail-des">
+            <h2 class="heading">product description</h2>
+            <p class="des">This legendary shoe was originally designed for basketball players. Its non-marking rubber sole gives it a good traction. It has two pivot points in the forefoot and heel for multidirectional transitions. Named after the us president's aircraft it is a legendary icon.</p>
+        </section>
+        
+
+<!--cards-container-->
+<section class="product">
+    <h2 class="product-category">Featured Products</h2>
+    <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card10.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">fila</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card16.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">balenciaga</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>  
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card18.jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">puma</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card19.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">chelsea boot</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div> 
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card14.jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">H&M chunky</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card13.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Vans</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/Product image (1).jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">nike Airforce 1</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card8.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Jordan 4 Off-White</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+
+    </div>
+</section>
+
+        <!--cards-container-->
+<section class="product">
+    <h2 class="product-category">now trending</h2>
+    <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card1.jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">H&M Boot</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card2.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Converse</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>  
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card3.jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Nike Airforce 1</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card4.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Nike University Blue</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div> 
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card5.jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Nike Airforce 1 High</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card6.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Jordan 1 Brown</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card7.jpeg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Adidas Yezzy</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="img/card8.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Jordan 4 Off-White</h2>
+                <p class="product-short-des">a short line about the shoe..</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="price">Rs.5600</span><span class="actual-price">Rs.7000</span>
+            </div>    
+        </div>
+
+    </div>
+</section>
+
+
+        <footer></footer>
+
+        <script src="js/nav.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/product.js"></script>
+</body>
+</html>

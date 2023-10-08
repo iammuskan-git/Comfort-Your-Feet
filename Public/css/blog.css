@@ -1,0 +1,117 @@
+.heading-section{
+    width: 100%;
+    height: 50px 60px;
+    background-image: url('../img/blog_header.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading .heading1{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'cinzel', serif;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 500;
+}
+.heading1 span{
+    font-family: 'cinzel', sans-serif;
+    color: #bb8208;
+}
+
+.blog-section{
+    width: 100%;
+}
+
+.blog-section .section-content{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.blog-section .section-content .title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.blog-section .section-content .title h2{
+    font-size: 40px;
+    color: #8f6e6e;
+    text-transform: uppercase;
+    font-family: 'cinzel', sans-serif;
+    font-weight: 500;
+}
+
+.blog-section .section-content .title p{
+    font-size: 18px;
+    color: #6a6a6a;
+    margin-top: 20px;
+    font-family: 'cinzel', sans-serif;
+    font-weight: 500;
+}
+
+.blog-section .section-content .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+}
+
+.blog-section .section-content .cards .card{
+    width: 100%;
+    background-color: #e9dbdb;
+    position: relative;
+    border-radius: 20px;
+}
+
+.blog-section .section-content .cards .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.blog-section .section-content .cards .card .article{
+    padding: 15px 20px;
+}
+
+.blog-section .section-content .cards .card .article h4{
+    font-size: 24px;
+    color: #8f6e6e;
+    font-family: 'cinzel', sans-serif;
+    font-weight: 500;
+}
+
+.blog-section .section-content .cards .card .article p{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #6a6a6a;
+}
+
+.blog-section .section-content .cards .card a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #8f6e6e;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'cinzel', sans-serif;
+    font-weight: 500;
+}
+
+.blog-section .section-content .cards .card .posted-date p{
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: #8f6e6e;
+    padding: 6px 15px;
+    font-family: 'cinzel', sans-serif;
+}

@@ -1,0 +1,166 @@
+.heading-section{
+    width: 100%;
+    height: 50px 60px;
+    background-image: url('../img/contact-us-header.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading .heading1{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'cinzel', serif;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 500;
+}
+.heading1 span{
+    font-family: 'cinzel', sans-serif;
+    color: #bb8208;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'cinzel', sans-serif;
+    color: #bb8208;
+}
+
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 25px;
+    line-height: 35px;
+    padding: 20px 0;
+    font-family: 'lato', sans-serif;
+    text-transform: capitalize;
+    color: #8f6e6e;
+    
+}
+
+#contact-details .details h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-family: 'cinzel', sans-serif;
+    font-weight: 500;
+}
+
+#contact-details .details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 18px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact-details .map{
+    width: 48%;
+    height: 500px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#form-details button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #8f6e6e;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: 'cinzel', sans-serif;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+}
+
+#form-details .people{
+    padding: 30px;
+    margin: 20px;
+}
+
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-details .people img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+#form-details .people div p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#form-details .people div p span{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8f6e6e;
+    font-family: 'cinzel', sans-serif;
+
+}
